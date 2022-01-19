@@ -1,0 +1,58 @@
+.header{
+    top: 0;
+    width: 100%;
+    text-align: left;
+    position: sticky;
+}
+
+.title{
+    display:inline;
+}
+
+.HOWPLAYAAAA{
+    float: right;
+}
+
+#Big_Image{
+    width: 100%;
+}
+
+#copyright_footer {
+    margin: 0;
+    line-height: 2;
+    background-color: white;
+}
+
+#mario_cred {
+    animation-name: wow;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    font-weight: bolder;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.modal-body {
+    display: inline;
+}
+
+.image-control {
+    width: 45%;
+}
+
+@keyframes wow {
+    0% {color: red}
+    25% {color: orangered}
+    50% {color: orange}
+    75% {color: orangered}
+    100% {color: red}
+}
+
+video{
+    background: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
